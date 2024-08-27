@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  # Expose all Actuator endpoints
+  endpoint:
+    health:
+      show-details: always  # Show health details
